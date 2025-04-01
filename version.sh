@@ -9,15 +9,18 @@ rm -rf build
 echo "Starting publication process..."
 python -m venv venv
 source venv/bin/activate
-pip install -r requirements.txt
-# Upewnij się że mamy najnowsze narzędzia
-pip install --upgrade pip build twine
 
 # Sprawdź czy jesteśmy w virtualenv
 if [ -z "$VIRTUAL_ENV" ]; then
     echo "Aktywuj najpierw virtualenv!"
     exit 1
 fi
+
+
+pip install -r requirements.txt
+# Upewnij się że mamy najnowsze narzędzia
+pip install --upgrade pip build twine
+
 
 # Usuń stare buildy
 rm -rf dist/ build/ *.egg-info/
@@ -28,7 +31,7 @@ pip install -e .
 python increment_init.py -f src/2print/__init__.py
 python increment_setup.py
 python increment_version.py
-#python increment_project.py
+python increment_project.py
 python changelog.py
 #python increment.py
 bash git.sh
