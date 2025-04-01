@@ -14,7 +14,7 @@
 # Avoid importing components directly to prevent circular imports
 from 2print.2print import 2print
 
-__version__ = "0.1.23"
+__version__ = "0.1.24"
 __version_tuple__ = (0, 1, 17)
 
 __all__ = ["2print"]
