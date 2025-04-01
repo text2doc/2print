@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.1.3] - 2025-04-01
+
+### Added
+- Changes in tests/__init__.py
+
 ## [0.1.2] - 2025-04-01
 
 ### Added
