@@ -2,18 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
-## [0.1.11] - 2025-04-01
-
 ## [0.1.10] - 2025-04-01
 
 ### Added
+- Changes in src/2print/2print.py
+- Changes in src/2print/__init__.py
+- Changes in src/2print/__init__.py.bak
+- Changes in src/2print/_version.py
+- Changes in src/2print/_version.py.bak
+
+### Removed
 - Changes in src/toPrint/__init__.py
-- Changes in src/toPrint/__init__.py.bak
-- Changes in src/toPrint/_version.py
-- Changes in src/toPrint/_version.py.bak
-- Changes in src/toPrint/toPrint.py
-- Changes in tests/pyproject.toml
-- Changes in tests/pyproject.toml.bak
 
 ## [0.1.9] - 2025-04-01
 
@@ -38,10 +37,10 @@ All notable changes to this project will be documented in this file.
 ## [0.1.2] - 2025-04-01
 
 ### Added
-- Changes in src/toPrint/toPrint.py
-- Changes in src/toPrint/__init__.py
-- Changes in src/toPrint/__init__.py.bak
-- Changes in src/toPrint/_version.py
+- Changes in src/2print/2print.py
+- Changes in src/2print/__init__.py
+- Changes in src/2print/__init__.py.bak
+- Changes in src/2print/_version.py
 
 ## [0.1.1] - 2025-04-01
 

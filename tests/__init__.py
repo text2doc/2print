@@ -1,4 +1,4 @@
 # tests/# __init__.py
 """
-Tests for toPrint package
+Tests for 2print package
 """
