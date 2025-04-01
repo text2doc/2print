@@ -11,6 +11,8 @@ rm -rf build
 echo "Starting publication process..."
 python -m venv venv
 source venv/bin/activate
+# Upewnij się że mamy najnowsze narzędzia
+pip install --upgrade pip build twine
 
 # Sprawdź czy jesteśmy w virtualenv
 if [ -z "$VIRTUAL_ENV" ]; then
@@ -20,11 +22,6 @@ fi
 
 
 pip install -r requirements.txt
-# Upewnij się że mamy najnowsze narzędzia
-pip install --upgrade pip build twine
-
-
-
 
 
 # Zainstaluj w trybie edytowalnym
