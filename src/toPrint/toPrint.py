@@ -1,6 +1,6 @@
 
 
-def 2print(texts, tokenizer, max_len=512):
+def toPrint(texts, tokenizer, max_len=512):
     """Converts a list of texts to a list of tokenized documents."""
     docs = []
     for text in texts:

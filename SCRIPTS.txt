@@ -1,1 +1,1 @@
-2print = 2print.cli_with_shell:main
+toPrint = toPrint.cli_with_shell:main
