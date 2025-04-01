@@ -1,8 +1,10 @@
 #!/bin/bash
 # Usuń poprzednie pliki
 rm -rf *.egg-info
-rm -rf dist
+#rm -rf dist
 rm -rf build
+# Usuń stare buildy
+#rm -rf dist/ build/ *.egg-info/
 
 # publish.sh
 #!/bin/bash
@@ -22,8 +24,7 @@ pip install -r requirements.txt
 pip install --upgrade pip build twine
 
 
-# Usuń stare buildy
-rm -rf dist/ build/ *.egg-info/
+
 
 
 # Zainstaluj w trybie edytowalnym
